@@ -25,7 +25,8 @@
             
                 <form action="#" id="form-email" class="d-flex justify-content-center m-4 text-center">
                     <div class="form-group d-flex flex-row justify-content-center">
-                        <input type="emai" class="form-control mr-2" name="email" id="emai-box" placeholder="Email address">
+                        <input class="form-control mr-2" autocomplete="email" minlength="5" maxlength="50" type="email" id="email-box" name="email" data-uia="field-email" placeholder="Email address" value="">
+                        <!--<input type="emai" class="form-control mr-2" name="email" id="emai-box" placeholder="Email address">-->
                         <button class="form-control bg-pri secCol" id="start-btn">Get Started</button>
                     </div>  
                 </form>
